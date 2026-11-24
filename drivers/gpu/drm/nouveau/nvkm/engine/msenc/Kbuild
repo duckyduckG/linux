@@ -1,2 +1,2 @@
 # SPDX-License-Identifier: MIT
-#nvkm-y += nvkm/engine/msenc/base.o
+nvkm-y += nvkm/engine/msenc/gk104.o

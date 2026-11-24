@@ -39,6 +39,7 @@
 #include <engine/fifo.h>
 #include <engine/gr.h>
 #include <engine/mpeg.h>
+#include <engine/msenc.h>
 #include <engine/mspdec.h>
 #include <engine/msppp.h>
 #include <engine/msvld.h>

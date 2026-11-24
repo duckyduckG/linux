@@ -238,6 +238,8 @@
 
 #define G98_SEC                                                      0x000088b4
 
+#define GK104_MSENC                                                  0x000090b7
+
 #define GT212_DMA                                                    0x000085b5
 #define FERMI_DMA                                                    0x000090b5
 #define KEPLER_DMA_COPY_A                                            0x0000a0b5

@@ -411,6 +411,9 @@ nouveau_abi16_ioctl_channel_alloc(ABI16_IOCTL_ARGS)
 			case NOUVEAU_FIFO_ENGINE_NVDEC:
 				engine = NV_DEVICE_HOST_RUNLIST_ENGINES_NVDEC;
 				break;
+			case NOUVEAU_FIFO_ENGINE_MSENC:
+				engine = NV_DEVICE_HOST_RUNLIST_ENGINES_MSENC;
+				break;
 			default:
 				return nouveau_abi16_put(abi16, -ENOSYS);
 			}

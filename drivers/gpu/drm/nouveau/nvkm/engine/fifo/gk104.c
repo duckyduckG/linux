@@ -187,6 +187,7 @@ gk104_ectx_ctor(struct nvkm_engn *engn, struct nvkm_vctx *vctx)
 	case NVKM_ENGINE_MSVLD:
 	case NVKM_ENGINE_MSPDEC:
 	case NVKM_ENGINE_MSPPP:
+	case NVKM_ENGINE_MSENC:
 		args.priv = 0;
 		break;
 	default:
