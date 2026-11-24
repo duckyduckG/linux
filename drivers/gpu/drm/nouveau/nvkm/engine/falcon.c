@@ -103,6 +103,7 @@ nvkm_falcon_fini(struct nvkm_engine *engine, enum nvkm_suspend_state suspend)
 		nvkm_memory_unref(&falcon->core);
 		if (falcon->external) {
 			vfree(falcon->data.data);
+			falcon->data.data = NULL;
 			vfree(falcon->code.data);
 			falcon->code.data = NULL;
 		}
